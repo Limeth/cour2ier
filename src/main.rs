@@ -136,7 +136,7 @@ dr="#
                 ).unwrap());
             },
             "start" => {
-                println!("{}", r2p.cmd("aaa; db main; dc; ds 3").unwrap());
+                println!("{}", r2p.cmd("ood; aaa; db main; dc; ds 3").unwrap());
             },
             _ => break 'dance,
         }
