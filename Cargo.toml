@@ -1,0 +1,8 @@
+[package]
+name = "cour2ier"
+version = "0.1.0"
+authors = ["Jakub Hlusička <jakub.hlusicka@email.cz>"]
+
+[dependencies]
+r2pipe = { git = "https://github.com/radare/r2pipe.rs" }
+serde_json = "1.0.8"
